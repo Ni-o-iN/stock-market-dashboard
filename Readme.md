@@ -128,7 +128,7 @@ This makes it easy to compare stocks regardless of their absolute price:
 | Technology | Usage |
 |------------|-----------|
 | **Python 3.10+** | Programming language |
-| **Streamlit** | Web dashboard framework |
+| **Streamlit 1.30.0+** | Web dashboard framework |
 | **yfinance** | Yahoo Finance API wrapper |
 | **Plotly Express** | Interactive visualizations |
 | **Pandas** | Data manipulation and analysis |
