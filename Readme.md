@@ -35,7 +35,7 @@ This project is an **interactive stock market dashboard** that allows users to c
 ## 🖼️ Demo
 
 ### Dashboard Overview
-![Overview](stock-market-dashboard.overview.png)
+![Overview](stock-market-dashboard-overview.png)
 
 ### Stock Comparison Chart
 Shows normalized performance where all stocks start at 100%, making it easy to compare percentage gains/losses regardless of absolute stock price.
