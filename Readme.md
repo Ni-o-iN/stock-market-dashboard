@@ -89,11 +89,6 @@ Shows normalized performance where all stocks start at 100%, making it easy to c
 ### Dashboard Components
 
 1. **Time Period Selector**
-   - Choose your analysis timeframe:
-     - `1mo` - Last month
-     - `3mo` - Last 3 months
-     - `6mo` - Last 6 months
-     - `1y` - Last year
 
 2. **Stock Comparison Chart**
    - Displays normalized performance of all selected stocks
@@ -113,6 +108,8 @@ The dashboard tracks the following major tech stocks:
 - **TSLA** - Tesla, Inc.
 - **NVDA** - NVIDIA Corporation
 - **META** - Meta Platforms, Inc. (Facebook)
+- **AMZN** -Amazon
+- **NFLX** -Netflix  
 
 ### Understanding Normalization
 
@@ -141,10 +138,9 @@ This makes it easy to compare stocks regardless of their absolute price:
 ```
 stock-market-dashboard/
 │
-├── app.py                 # Main dashboard application
-├── requirements.txt       # Python dependencies
-├── README.md             # This file
-└── .gitignore            # Git ignore rules
+├── app.py                                # Main dashboard application
+├── requirements.txt                      # Python dependencies
+└── stock-market-dashboard-overview.png   # Git ignore rules
 ```
 
 ## 🌐 API Information
@@ -170,59 +166,6 @@ stock-market-dashboard/
 
 **Note:** While yfinance is convenient and free, it's not an official Yahoo Finance API. For production applications, consider using a paid financial data API.
 
-## 🔮 Possible Extensions
-
-### Short-term (1-2 hours)
-- [ ] Add key metrics display (current price, daily change)
-- [ ] Export data to CSV
-- [ ] Add more stocks or let users input custom tickers
-- [ ] Display data loading status/progress
-
-### Medium-term (half day)
-- [ ] Candlestick chart for detailed view
-- [ ] Volume chart overlay
-- [ ] Moving averages (SMA, EMA)
-- [ ] Volatility indicators
-
-### Long-term (several days)
-- [ ] Portfolio tracking (user can add stocks they own)
-- [ ] Price alerts
-- [ ] Technical indicators (RSI, MACD, Bollinger Bands)
-- [ ] News integration for each stock
-- [ ] Comparison with indices (S&P 500, NASDAQ)
-
-## 📚 Learnings
-
-What I learned building this project:
-
-### Financial Data & APIs
-- ✅ Working with the yfinance library
-- ✅ Understanding stock data structure (OHLC)
-- ✅ Handling time series data
-- ✅ Data normalization for fair comparison
-
-### Data Visualization
-- ✅ Creating multi-line charts with Plotly
-- ✅ Implementing interactive features
-- ✅ Choosing appropriate visualization types
-- ✅ Color coding and legend management
-
-### Python & Libraries
-- ✅ Pandas DataFrame manipulation
-- ✅ Working with datetime indices
-- ✅ Dictionary comprehensions
-- ✅ Data normalization techniques
-
 ## 📝 License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [yfinance](https://github.com/ranaroussi/yfinance) for the excellent Yahoo Finance API wrapper
-- [Streamlit](https://streamlit.io/) for the intuitive dashboard framework
-- [Plotly](https://plotly.com/) for interactive visualizations
-
----
-
-**Built as a portfolio project to demonstrate data visualization and API integration skills | February 2026**
