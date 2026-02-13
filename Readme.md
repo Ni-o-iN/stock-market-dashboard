@@ -3,8 +3,10 @@
 An interactive Streamlit dashboard for visualizing and comparing stock market performance using real-time data from Yahoo Finance.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.30.0+-red.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-red.svg)
+![Plotly](https://img.shields.io/badge/Plotly-blue.svg)
+![Pandas](https://img.shields.io/badge/Pandas-green.svg)
+![yfinance](https://img.shields.io/badge/yfinance-purple.svg)
 
 ## 📋 Table of Contents
 
