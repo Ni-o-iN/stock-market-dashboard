@@ -140,7 +140,7 @@ stock-market-dashboard/
 │
 ├── app.py                                # Main dashboard application
 ├── requirements.txt                      # Python dependencies
-└── stock-market-dashboard-overview.png   # Git ignore rules
+└── stock-market-dashboard-overview.png   # Dashboard Overview
 ```
 
 ## 🌐 API Information
